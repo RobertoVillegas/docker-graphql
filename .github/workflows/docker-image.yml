@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t robertovillegas/docker-graphql:0.0.2
+          docker build -t robertovillegas/docker-graphql:0.0.2 .
 
       - name: Push Docker image
         run: |
